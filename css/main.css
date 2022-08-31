@@ -3,6 +3,10 @@ body {
   background-color: #1e4d25;
 }
 
+.wrapper {
+  padding: 0 15%;
+}
+
 .navbar-collapse {
   flex-grow: 0;
 }
