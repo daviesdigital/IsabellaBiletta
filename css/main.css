@@ -1,12 +1,24 @@
 @font-face {
-  font-family: "Helvetica-95-Black";
-  src: url("../../JH_art/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.woff2") format("woff2"), url("../../JH_art/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.woff") format("woff"), url("../../JH_art/fonts/helvetica-neue-lt-std-95-black-594b91982fdff.otf") format("opentype"), local("Helvetica 95 Black");
+  font-family: "DINPro";
+  src: url("../../IsabellaBiletta/fonts/DINPro.woff2") format("woff2"), url("../../IsabellaBiletta/fonts/DINPro.otf") format("opentype"), local("DINPro");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Helvetica-65-Mid";
-  src: url("../../JH_art/fonts/HelveticaNeueLTPro-Md.woff2") format("woff2"), url("../../JH_art/fonts/HelveticaNeueLTPro-Md.woff") format("woff"), url("../../JH_art/fonts/HelveticaNeueLTPro-Md.otf") format("opentype"), local("Helvetica 65 Mid");
+  font-family: "DINPro-Light";
+  src: url("../../IsabellaBiletta/fonts/DINPro-Light.woff2") format("woff2"), url("../../IsabellaBiletta/fonts/DINPro-Light.otf") format("opentype"), local("DINPro-Light");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINPro-Medium";
+  src: url("../../IsabellaBiletta/fonts/DINPro-Medium.woff2") format("woff2"), url("../../IsabellaBiletta/fonts/DINPro-Medium.otf") format("opentype"), local("DINPro-Medium");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINPro-Bold";
+  src: url("../../IsabellaBiletta/fonts/DINPro-Bold.woff2") format("woff2"), url("../../IsabellaBiletta/fonts/DINPro-Bold.otf") format("opentype"), local("DINPro-Bold");
   font-weight: normal;
   font-style: normal;
 }
