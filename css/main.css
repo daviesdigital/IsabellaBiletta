@@ -30,11 +30,13 @@ body {
 h1 {
   color: white;
   font-family: "DINPro-Bold";
+  font-size: 50px;
 }
 
 p {
   color: white;
-  font-family: "DINPro";
+  font-family: "DINPro-Light";
+  font-size: 18px;
 }
 
 .wrapper {
