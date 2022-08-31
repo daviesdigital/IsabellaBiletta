@@ -1,6 +1,10 @@
 body {
-  padding: 0 5%;
   margin: 0 auto;
+  background-color: #1e4d25;
+}
+
+div {
+  padding: 0 5%;
 }
 
 .navbar-collapse {
