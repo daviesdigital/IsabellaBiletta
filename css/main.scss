@@ -156,6 +156,28 @@ body {
         }
         }
 
+        .contact-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 5%;
+            padding-bottom: 2em;
+
+
+            ul {
+                float: right;
+                list-style: none;
+                text-align: right;
+            
+                li a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 1.3em;
+                    padding: 0 1.5em;
+                    font-family: 'DINPro-Medium'
+                }
+            }
+        }
 
     .form-block {
         display: flex;
