@@ -121,8 +121,7 @@ body {
         border: solid 2px #29fd2e ;
         background-color: #29fd2e;
         padding: 1em 4.4em;
-        font-family: 'Helvetica-95-Black';
-        font-weight: 500;
+        font-family: 'DINPro-Bold';
         font-size: 1em;
         color: #1e4d25;
         text-decoration: none;
@@ -133,61 +132,83 @@ body {
         background-color: white;
         transition: 0.1s ease-in-out ;
     }
-}
-
-
-.form-block {
-    display: flex;
-    flex-direction: column;
-    padding: 0 5% 0 5%;
-
-    label {
-        font-family: "DINPro-Bold";
-        color: #1e4d25;
-    }
-    
-    input[type=text], input[type=email], input[type=tel] {
-        border: none;
-        border-bottom: solid 3.5px #1e4d25;
-        padding: 0 1em 0.5em 1em;
-        margin: 1em 0 2em 0;
-        width: 100%;
-
-        font-family: 'DINPro-Light';
     }
 
-    textarea {
-        border: none;
-        border-bottom: solid 3.5px #1e4d25;
-        margin: 1em 0 2em 0;
-        padding: 0em 1em 5em 1em;
-        width: 100%;
-        resize: vertical;
-        font-family: 'DINPro-Light';
-        
-    }
-
-    input:focus, textarea:focus {
-    border-bottom: solid 3.5px #29fd2e;
-    }
-
-    input[type=submit] {   
+    .button-wrapper-alt {
         display: block;
-        margin: auto;
+        padding: 1.5em 0;
+    
+        a {
+            border: solid 2px white ;
+            background-color: transparent;
+            padding: 1em 4.4em;
+            font-family: 'DINPro-Bold';
+            font-size: 1em;
+            color: white;
+            text-decoration: none;
+        }
+    
+        a:hover {
+            border: solid 2px #29fd2e;
+            background-color: #29fd2e;
+            color: #1e4d25;
+            transition: 0.1s ease-in-out ;
+        }
+        }
 
-        font-family: 'DINPro-Bold';
+
+    .form-block {
+        display: flex;
+        flex-direction: column;
+        padding: 0 5% 0 5%;
+
+        label {
+            font-family: "DINPro-Bold";
+            color: #1e4d25;
+        }
+        
+        input[type=text], input[type=email], input[type=tel] {
+            border: none;
+            border-bottom: solid 3.5px #1e4d25;
+            padding: 0 1em 0.5em 1em;
+            margin: 1em 0 2em 0;
+            width: 100%;
+
+            font-family: 'DINPro-Light';
+        }
+
+        textarea {
+            border: none;
+            border-bottom: solid 3.5px #1e4d25;
+            margin: 1em 0 2em 0;
+            padding: 0em 1em 5em 1em;
+            width: 100%;
+            resize: vertical;
+            font-family: 'DINPro-Light';
             
-        border: solid 3px #1e4d25 ;
-        background-color: white;
-        padding: 1em 4.4em;
-        color: #1e4d25;
-        text-decoration: none;
-        cursor: pointer;
-    }
+        }
 
-    input[type=submit]:hover {
-        border: solid 3px #29fd2e;
-        background-color: #29fd2e;
-        transition: 0.3s ease-in-out ;
-    }  
-}
+        input:focus, textarea:focus {
+        border-bottom: solid 3.5px #29fd2e;
+        }
+
+        input[type=submit] {   
+            display: block;
+            margin: auto;
+
+            font-family: 'DINPro-Bold';
+                
+            border: solid 3px #1e4d25 ;
+            background-color: white;
+            padding: 1em 4.4em;
+            color: #1e4d25;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            border: solid 3px #29fd2e;
+            background-color: #29fd2e;
+            transition: 0.3s ease-in-out ;
+        }  
+    }

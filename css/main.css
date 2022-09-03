@@ -104,8 +104,7 @@ p {
   border: solid 2px #29fd2e;
   background-color: #29fd2e;
   padding: 1em 4.4em;
-  font-family: "Helvetica-95-Black";
-  font-weight: 500;
+  font-family: "DINPro-Bold";
   font-size: 1em;
   color: #1e4d25;
   text-decoration: none;
@@ -113,6 +112,26 @@ p {
 .button-wrapper a:hover {
   border: solid 2px white;
   background-color: white;
+  transition: 0.1s ease-in-out;
+}
+
+.button-wrapper-alt {
+  display: block;
+  padding: 1.5em 0;
+}
+.button-wrapper-alt a {
+  border: solid 2px white;
+  background-color: transparent;
+  padding: 1em 4.4em;
+  font-family: "DINPro-Bold";
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+}
+.button-wrapper-alt a:hover {
+  border: solid 2px #29fd2e;
+  background-color: #29fd2e;
+  color: #1e4d25;
   transition: 0.1s ease-in-out;
 }
 
