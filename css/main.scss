@@ -36,10 +36,6 @@
     font-style: normal;
 }
 
-
-
-
-
 body {
     margin: 0 auto;
     background-color: #1e4d25;
@@ -115,33 +111,41 @@ body {
 
   .button-wrapper {
     display: block;
-    padding: 1.5em 0;
+    
+    text-align: center;
 
-    a {
-        border: solid 2px #29fd2e ;
-        background-color: #29fd2e;
-        padding: 1em 4.4em;
-        font-family: 'DINPro-Bold';
-        font-size: 1em;
-        color: #1e4d25;
-        text-decoration: none;
-    }
+        a {
+            border: solid 2px #29fd2e ;
+            background-color: #29fd2e;
+            display: block;
+            width: 100%;
+            padding: 1em 0;
 
-    a:hover {
-        border: solid 2px white;
-        background-color: white;
-        transition: 0.1s ease-in-out ;
-    }
+            font-family: 'DINPro-Bold';
+            font-size: 1em;
+            color: #1e4d25;
+            text-decoration: none;
+        }
+
+        a:hover {
+            border: solid 2px white;
+            background-color: white;
+            transition: 0.1s ease-in-out ;
+        }
     }
 
     .button-wrapper-alt {
         display: block;
-        padding: 1.5em 0;
+        margin: 1em 0;
+        text-align: center;
     
         a {
             border: solid 2px white ;
             background-color: transparent;
-            padding: 1em 4.4em;
+            display: block;
+            width: 100%;
+            padding: 1em 0;
+            width: inherit;
             font-family: 'DINPro-Bold';
             font-size: 1em;
             color: white;
@@ -156,28 +160,40 @@ body {
         }
         }
 
-        .contact-title {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 5%;
-            padding-bottom: 2em;
+    .aboutsec {
+        display: block;
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .about_buttons { 
+        margin-top: 1em;
+    }
+
+    .contact-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5%;
+        padding-bottom: 2em;
 
 
-            ul {
-                float: right;
-                list-style: none;
-                text-align: right;
-            
-                li a {
-                    text-decoration: none;
-                    color: black;
-                    font-size: 1.3em;
-                    padding: 0 1.5em;
-                    font-family: 'DINPro-Medium'
-                }
+        ul {
+            float: right;
+            list-style: none;
+            text-align: right;
+        
+            li a {
+                text-decoration: none;
+                color: black;
+                font-size: 1.3em;
+                padding: 0 1.5em;
+                font-family: 'DINPro-Medium'
             }
         }
+    }
 
     .form-block {
         display: flex;
@@ -234,3 +250,64 @@ body {
             transition: 0.3s ease-in-out ;
         }  
     }
+
+
+@media screen and (min-width: 992px){
+
+    .aboutsec {
+        display: flex;
+
+    }
+
+    .about_buttons {
+        display:flex; 
+        margin-top: 1em;
+    }
+
+    .button-wrapper {
+        display: block;
+        padding: 1.5em 0;
+        padding-right: 2em;
+        margin: 0;
+    
+        a {
+            border: solid 2px #29fd2e ;
+            background-color: #29fd2e;
+            padding: 1em 4.5em;
+            font-family: 'DINPro-Bold';
+            font-size: 1em;
+            color: #1e4d25;
+            text-decoration: none;
+        }
+    
+        a:hover {
+            border: solid 2px white;
+            background-color: white;
+            transition: 0.1s ease-in-out ;
+        }
+        }
+    
+    .button-wrapper-alt {
+            display: block;
+            padding: 1.5em 0;
+            margin: 0;
+            
+        
+            a {
+                border: solid 2px white ;
+                background-color: transparent;
+                padding: 1em 4.5em;
+                font-family: 'DINPro-Bold';
+                font-size: 1em;
+                color: white;
+                text-decoration: none;
+            }
+        
+            a:hover {
+                border: solid 2px #29fd2e;
+                background-color: #29fd2e;
+                color: #1e4d25;
+                transition: 0.1s ease-in-out ;
+            }
+        }
+}

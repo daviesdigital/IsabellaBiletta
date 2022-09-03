@@ -98,12 +98,14 @@ p {
 
 .button-wrapper {
   display: block;
-  padding: 1.5em 0;
+  text-align: center;
 }
 .button-wrapper a {
   border: solid 2px #29fd2e;
   background-color: #29fd2e;
-  padding: 1em 4.4em;
+  display: block;
+  width: 100%;
+  padding: 1em 0;
   font-family: "DINPro-Bold";
   font-size: 1em;
   color: #1e4d25;
@@ -117,12 +119,16 @@ p {
 
 .button-wrapper-alt {
   display: block;
-  padding: 1.5em 0;
+  margin: 1em 0;
+  text-align: center;
 }
 .button-wrapper-alt a {
   border: solid 2px white;
   background-color: transparent;
-  padding: 1em 4.4em;
+  display: block;
+  width: 100%;
+  padding: 1em 0;
+  width: inherit;
   font-family: "DINPro-Bold";
   font-size: 1em;
   color: white;
@@ -133,6 +139,17 @@ p {
   background-color: #29fd2e;
   color: #1e4d25;
   transition: 0.1s ease-in-out;
+}
+
+.aboutsec {
+  display: block;
+}
+.aboutsec p {
+  font-size: 14px;
+}
+
+.about_buttons {
+  margin-top: 1em;
 }
 
 .contact-title {
@@ -199,4 +216,54 @@ p {
   border: solid 3px #29fd2e;
   background-color: #29fd2e;
   transition: 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 992px) {
+  .aboutsec {
+    display: flex;
+  }
+  .about_buttons {
+    display: flex;
+    margin-top: 1em;
+  }
+  .button-wrapper {
+    display: block;
+    padding: 1.5em 0;
+    padding-right: 2em;
+    margin: 0;
+  }
+  .button-wrapper a {
+    border: solid 2px #29fd2e;
+    background-color: #29fd2e;
+    padding: 1em 4.5em;
+    font-family: "DINPro-Bold";
+    font-size: 1em;
+    color: #1e4d25;
+    text-decoration: none;
+  }
+  .button-wrapper a:hover {
+    border: solid 2px white;
+    background-color: white;
+    transition: 0.1s ease-in-out;
+  }
+  .button-wrapper-alt {
+    display: block;
+    padding: 1.5em 0;
+    margin: 0;
+  }
+  .button-wrapper-alt a {
+    border: solid 2px white;
+    background-color: transparent;
+    padding: 1em 4.5em;
+    font-family: "DINPro-Bold";
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+  }
+  .button-wrapper-alt a:hover {
+    border: solid 2px #29fd2e;
+    background-color: #29fd2e;
+    color: #1e4d25;
+    transition: 0.1s ease-in-out;
+  }
 }/*# sourceMappingURL=main.css.map */
