@@ -26,6 +26,7 @@
 body {
   margin: 0 auto;
   background-color: #1e4d25;
+  scroll-behavior: smooth;
 }
 
 h1 {
