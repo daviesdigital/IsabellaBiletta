@@ -119,7 +119,7 @@ p {
 .form-block {
   display: flex;
   flex-direction: column;
-  padding: 0 5% 10% 5%;
+  padding: 0 5% 0 5%;
 }
 .form-block label {
   font-family: "DINPro-Bold";
@@ -131,7 +131,7 @@ p {
   padding: 0 1em 0.5em 1em;
   margin: 1em 0 2em 0;
   width: 100%;
-  font-family: "DINPro-Thin";
+  font-family: "DINPro-Light";
 }
 .form-block textarea {
   border: none;
@@ -140,7 +140,7 @@ p {
   padding: 0em 1em 5em 1em;
   width: 100%;
   resize: vertical;
-  font-family: "DINPro-Thin";
+  font-family: "DINPro-Light";
 }
 .form-block input:focus, .form-block textarea:focus {
   border-bottom: solid 3.5px #29fd2e;
@@ -148,14 +148,10 @@ p {
 .form-block input[type=submit] {
   display: block;
   margin: auto;
-  font-family: "DINPRO-Bold";
-  background-color: #0056ff;
+  font-family: "DINPro-Bold";
   border: solid 3px #1e4d25;
   background-color: white;
   padding: 1em 4.4em;
-  font-family: "Helvetica-95-Black";
-  font-weight: 500;
-  font-size: 1em;
   color: #1e4d25;
   text-decoration: none;
   cursor: pointer;

@@ -139,7 +139,7 @@ body {
 .form-block {
     display: flex;
     flex-direction: column;
-    padding: 0 5% 10% 5%;
+    padding: 0 5% 0 5%;
 
     label {
         font-family: "DINPro-Bold";
@@ -153,7 +153,7 @@ body {
         margin: 1em 0 2em 0;
         width: 100%;
 
-        font-family: 'DINPro-Thin';
+        font-family: 'DINPro-Light';
     }
 
     textarea {
@@ -163,7 +163,7 @@ body {
         padding: 0em 1em 5em 1em;
         width: 100%;
         resize: vertical;
-        font-family: 'DINPro-Thin';
+        font-family: 'DINPro-Light';
         
     }
 
@@ -175,15 +175,11 @@ body {
         display: block;
         margin: auto;
 
-        font-family: 'DINPRO-Bold';
-        background-color: #0056ff;
+        font-family: 'DINPro-Bold';
             
         border: solid 3px #1e4d25 ;
         background-color: white;
         padding: 1em 4.4em;
-        font-family: 'Helvetica-95-Black';
-        font-weight: 500;
-        font-size: 1em;
         color: #1e4d25;
         text-decoration: none;
         cursor: pointer;
