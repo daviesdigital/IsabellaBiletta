@@ -114,4 +114,54 @@ p {
   border: solid 2px white;
   background-color: white;
   transition: 0.1s ease-in-out;
+}
+
+.form-block {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5% 10% 5%;
+}
+.form-block label {
+  font-family: "DINPro-Bold";
+  color: #1e4d25;
+}
+.form-block input[type=text], .form-block input[type=email], .form-block input[type=tel] {
+  border: none;
+  border-bottom: solid 3.5px #1e4d25;
+  padding: 0 1em 0.5em 1em;
+  margin: 1em 0 2em 0;
+  width: 100%;
+  font-family: "DINPro-Thin";
+}
+.form-block textarea {
+  border: none;
+  border-bottom: solid 3.5px #1e4d25;
+  margin: 1em 0 2em 0;
+  padding: 0em 1em 5em 1em;
+  width: 100%;
+  resize: vertical;
+  font-family: "DINPro-Thin";
+}
+.form-block input:focus, .form-block textarea:focus {
+  border-bottom: solid 3.5px #29fd2e;
+}
+.form-block input[type=submit] {
+  display: block;
+  margin: auto;
+  font-family: "DINPRO-Bold";
+  background-color: #0056ff;
+  border: solid 3px #1e4d25;
+  background-color: white;
+  padding: 1em 4.4em;
+  font-family: "Helvetica-95-Black";
+  font-weight: 500;
+  font-size: 1em;
+  color: #1e4d25;
+  text-decoration: none;
+  cursor: pointer;
+}
+.form-block input[type=submit]:hover {
+  border: solid 3px #29fd2e;
+  background-color: #29fd2e;
+  transition: 0.3s ease-in-out;
 }/*# sourceMappingURL=main.css.map */

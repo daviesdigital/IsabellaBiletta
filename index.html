@@ -98,6 +98,28 @@
     <!---Contact-->
     <div class="wrapper" style="background-color:white; height:80vh; ">
 
+        <div class="form-block">
+            <form id="contactform" action="index.php" method="POST">
+                <input name="_redirect" type="hidden" id="name" value="https://daviesdigitaldesign.com/index.php">
+                
+                <label for="name" class="field-label-4">Name*</label>
+                    <input type="text" maxlength="256" name="name" data-name="Name" placeholder="What should we call you" id="name" required="">
+
+                <label for="email" class="field-label-4">Email Address*</label>
+                    <input type="email"  maxlength="256" name="email" data-name="Email" placeholder="So we can contact you" id="email" required="">
+
+                <label for="phone" class="field-label-4">Phone Number</label>
+                    <input type="tel"  maxlength="256" name="phone-number" data-name="Field" placeholder="Enter your number here" id="field">
+
+                <label class="field-label-4">Shoot Us A Message*</label>
+                    <textarea maxlength="5000" id="message-input" name="message-input" placeholder="Write away..."  required=""></textarea>
+                    
+                <input name="_formsubmit_id" type="text" style="display:none">
+                
+                <input type="submit" name="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button">
+            </form>
+        </div>
+
     </div>  
 
 
