@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
 @font-face {
     font-family: "DINPro";
     src: url("../../IsabellaBiletta/fonts/DINPro.woff2") format("woff2"),
@@ -53,6 +55,18 @@ body {
         color: white;
         font-family: "DINPro-Light";
         font-size: 18px;
+    }
+
+    .bi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0.5em;
+        color: white;
+    }
+
+    .bi:hover {
+        color: #29fd2e;
     }
 
     .wrapper {
