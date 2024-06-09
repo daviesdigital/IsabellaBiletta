@@ -3,6 +3,7 @@
 @font-face {
     font-family: "DINPro";
     src: url("../../IsabellaBiletta/fonts/DINPro.woff2") format("woff2"),
+    url("../../IsabellaBiletta/fonts/DINPro.woff") format("woff"),
          url("../../IsabellaBiletta/fonts/DINPro.otf") format('opentype'),
          local('DINPro');
     font-weight: normal;
@@ -12,6 +13,7 @@
 @font-face {
     font-family: "DINPro-Light";
     src: url("../../IsabellaBiletta/fonts/DINPro-Light.woff2") format("woff2"),
+    url("../../IsabellaBiletta/fonts/DINPro-Light.woff") format("woff"),
          url("../../IsabellaBiletta/fonts/DINPro-Light.otf") format('opentype'),
          local('DINPro-Light');
     font-weight: normal;
@@ -21,6 +23,7 @@
 @font-face {
     font-family: "DINPro-Medium";
     src: url("../../IsabellaBiletta/fonts/DINPro-Medium.woff2") format("woff2"),
+        url("../../IsabellaBiletta/fonts/DINPro-Medium.woff") format("woff"),    
          url("../../IsabellaBiletta/fonts/DINPro-Medium.otf") format('opentype'),
          local('DINPro-Medium');
     font-weight: normal;
@@ -30,6 +33,7 @@
 @font-face {
     font-family: "DINPro-Bold";
     src: url("../../IsabellaBiletta/fonts/DINPro-Bold.woff2") format("woff2"),
+         url("../../IsabellaBiletta/fonts/DINPro-Bold.woff") format("woff"),
          url("../../IsabellaBiletta/fonts/DINPro-Bold.otf") format('opentype'),
          local('DINPro-Bold');
     font-weight: normal;
